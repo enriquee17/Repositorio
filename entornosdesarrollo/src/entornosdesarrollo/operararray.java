@@ -3,11 +3,12 @@ package entornosdesarrollo;
 public class operararray {
 	static int array[] = new int [10];
 	static int numAleatorio = 0;
+	static int suma = 0;
 	
 
 	public static void main(String[] args) {
 		array();
-		
+		suma();
 	}
 	public static void array () {
 		for (int i = 0; i < array.length; i++) {
@@ -22,6 +23,15 @@ public class operararray {
 			 
 			System.out.print(array[i]+"");
 			
+		}
+	}
+	
+	public static void suma() {
+		for (int i = 0; i < array.length; i++) {
+			 
+			suma += array[i];
+			System.out.println();
+			System.out.println("La suma de los numeros del array es: "+suma);
 		}
 	}
 
