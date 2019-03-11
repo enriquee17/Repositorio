@@ -8,6 +8,7 @@ public class operararray {
 
 	public static void main(String[] args) {
 		array();
+		imprimeArray();
 		suma();
 	}
 	public static void array () {
