@@ -16,5 +16,13 @@ public class operararray {
 			
 		}
 	}
+	
+	public static void imprimeArray() {
+		for (int i = 0; i < array.length; i++) {
+			 
+			System.out.print(array[i]+"");
+			
+		}
+	}
 
 }
