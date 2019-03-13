@@ -36,10 +36,14 @@ public class operararray {
 			System.out.println("La suma de los numeros del array es: "+suma);
 		}
 	}
+
 	
 	public static void metodoRama2() {
 		System.out.println();
 		System.out.println("Metodo de la rama 2");
 	}
+
+
+//hola
 
 }
