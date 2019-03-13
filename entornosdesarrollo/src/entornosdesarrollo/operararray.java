@@ -35,5 +35,5 @@ public class operararray {
 			System.out.println("La suma de los numeros del array es: "+suma);
 		}
 	}
-
+//hola
 }
