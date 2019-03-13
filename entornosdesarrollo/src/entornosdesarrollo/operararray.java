@@ -10,7 +10,11 @@ public class operararray {
 		array();
 		imprimeArray();
 		suma();
+
+		metodoRama1();
+
 		metodoRama2();
+
 	}
 	public static void array () {
 		for (int i = 0; i < array.length; i++) {
@@ -34,8 +38,14 @@ public class operararray {
 			suma += array[i];
 			System.out.println();
 			System.out.println("La suma de los numeros del array es: "+suma);
+			}
 		}
+	public static void metodoRama1() {
+		System.out.println();
+		System.out.println("Metodo de la rama 1");
 	}
+
+
 
 	
 	public static void metodoRama2() {
@@ -45,5 +55,6 @@ public class operararray {
 
 
 //hola
+
 
 }
