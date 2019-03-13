@@ -10,6 +10,7 @@ public class operararray {
 		array();
 		imprimeArray();
 		suma();
+		metodoRama2();
 	}
 	public static void array () {
 		for (int i = 0; i < array.length; i++) {
@@ -34,6 +35,11 @@ public class operararray {
 			System.out.println();
 			System.out.println("La suma de los numeros del array es: "+suma);
 		}
+	}
+	
+	public static void metodoRama2() {
+		System.out.println();
+		System.out.println("Metodo de la rama 2");
 	}
 
 }
